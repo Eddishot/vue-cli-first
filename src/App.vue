@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Title text="La mia prima app con Vue CLI!"/>
+    <Title></Title>
   </div>
 </template>
 
 <script>
-import Title from './components/Title.vue'
+import Title from "./components/Title.vue";
 
 
 

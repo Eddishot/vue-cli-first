@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-           {{ text}}
+           La mia prima app con Vue CLI!" 
         </h1>
     </div>
 </template>
@@ -9,9 +9,10 @@
 
 <script>
     export default{
-        name: "Title".
+        name: "Title",
+
         props:{
-            text: String,
-        }
+            textTitle: String,
+        },
     }
 </script
